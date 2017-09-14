@@ -1,0 +1,17 @@
+{
+  "name": "spriteFactory",
+  "productName": "spriteFactory",
+  "version": "1.0.0",
+  "author": "guanyuxin.com",
+  "description": "draw sprites online",
+  "scripts": {
+  },
+  "repository": "https://github.com/guanyuxin/spriteFactory",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
