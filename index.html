@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Draw It</title>
+<style>
+	.container {
+		display: flex;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.outline {
+		width: 300px;
+		border-right: 1px solid #ccc;
+	}
+	.view {
+		flex: 1;
+		overflow: hidden;
+	}
+	.config {
+		width: 600px;
+		border-left: 1px solid #ccc;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="outline"></div>
+	<div class="view">
+		<canvas class="viewing"></canvas>
+	</div>
+	<div class="config"></div>
+</div>
+</body>
+<script>
+	var Shape = function () {
+
+	}
+	var Circle = function (props) {
+		this.x = props.x || 0;
+		this.y = props.y || 0;
+		this.r = props.r || 1;
+	}
+	Circle.protoType.__proto__ = Shape.protoType
+</script>
+</html>
